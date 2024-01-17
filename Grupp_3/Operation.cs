@@ -93,7 +93,7 @@ public bool IsValidPersonnummer(string personnummer)
     //Helen ange personnummer
     static void Main()
     {
-        
+
         Console.WriteLine("Ange personnummer (ÅÅMMDD-XXXX): ");
         string personnummer = Console.ReadLine();
 
@@ -105,6 +105,7 @@ public bool IsValidPersonnummer(string personnummer)
         {
             Console.WriteLine("Personnumret är ogiltigt.");
         }
+        
     }
     static bool IsValidPersonnummer(string personnummer)
     {
