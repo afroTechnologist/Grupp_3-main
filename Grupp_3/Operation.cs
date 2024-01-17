@@ -105,6 +105,7 @@ public bool IsValidPersonnummer(string personnummer)
         {
             Console.WriteLine("Personnumret är ogiltigt.");
         }
+
         
     }
     static bool IsValidPersonnummer(string personnummer)
